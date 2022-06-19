@@ -1,0 +1,28 @@
+.container {
+  width: 100vw;
+  height: calc(100vh - 62px);
+}
+
+.tooltip {
+  width: 250px;
+  overflow: hidden;
+  display: flex !important;
+  overflow-wrap: break-word;
+  white-space: unset !important;
+  align-items: start;
+  justify-content: start;
+  border: 1px solid #1a76d2 !important;
+  .tooltipItem, .tooltipItemLast {
+    display: flex;
+    flex-direction: column;
+  }
+  .tooltipItem::after {
+    content: "\21E9";
+  }
+  .tooltipRule {
+    font-weight: bold;
+    color: #4caf50;
+  }
+}
+
+

@@ -1,0 +1,161 @@
+{
+  "name": "If ALL of these conditions are TRUE :",
+  "children": [
+    {
+      "name": "Apparel",
+      "children": [
+        {
+          "name": "If ANY  of these conditions are TRUE ",
+          "children": [
+            {
+              "name": "Gender Age: Mens, Adult Unisex",
+              "children": [
+                {
+                  "name": "If ANY  of these conditions are TRUE :",
+                  "children": [
+                    {
+                      "name": "Sport Activity: Running, Track; Sub-Category: Running, Track; Category Core Focus: Running; Nike Category: Track, Running",
+                      "children": [
+                        {
+                          "name": "ID: 1"
+                        },
+                        {
+                          "name": "Rule: Apparel-Men-Running"
+                        },
+                        {
+                          "name": "Priority: 0"
+                        },
+                        {
+                          "name": "Status: Enabled"
+                        },
+                        {
+                          "name": "Web SIte: The vAn - US, The vAn JP"
+                        },
+                        {
+                          "name": "Categories: Runnig"
+                        },
+                        {
+                          "name": "Apply By: all Events"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Category is not 278 (Jordan)",
+      "children": [
+        {
+          "name": "ID: 2"
+        },
+        {
+          "name": "Rule: All Products"
+        },
+        {
+          "name": "Priority: 1"
+        },
+        {
+          "name": "Status: Enabled"
+        },
+        {
+          "name": "Web SIte: The vAn - US, The vAn JP"
+        },
+        {
+          "name": "Categories: All products"
+        },
+        {
+          "name": "Apply By: all Events"
+        }
+      ]
+    },
+    {
+      "name": "Category is Brand Marketing (ALLproduct)\nCategory is The vAn - US (ALL product)\nAre not in the catalog 197, 199, 180, 229, 181, 231,\n 232, 182, 233, 234, 280, 200, 230",
+      "children": [
+        {
+          "name": "ID: 3"
+        },
+        {
+          "name": "Rule: Template - All Products"
+        },
+        {
+          "name": "Priority: 10"
+        },
+        {
+          "name": "Status: Disabled"
+        },
+        {
+          "name": "Web SIte: Template Website"
+        },
+        {
+          "name": "Categories: All products"
+        },
+        {
+          "name": "Apply By: cron"
+        }
+      ]
+    },
+    {
+      "name": "Is Apparel",
+      "children": [
+        {
+          "name": "If ANY of these conditions are TRUE :",
+          "children": [
+            {
+              "name": "is Equipment",
+              "children": [
+                {
+                  "name": "If ANY  of these conditions are TRUE :",
+                  "children": [
+                    {
+                      "name": "Sub Category: Headwear, Eyewear; Nike Kategory: Vision",
+                      "children": [
+                        {
+                          "name": "ID: 35"
+                        },
+                        {
+                          "name": "Rule: Accessories & Equipment"
+                        },
+                        {
+                          "name": "Priority: 0"
+                        },
+                        {
+                          "name": "Status: Enabled"
+                        },
+                        {
+                          "name": "Web SIte: The vAn - US, The vAn JP"
+                        },
+                        {
+                          "name": "Categories: Accessories & Equipment"
+                        },
+                        {
+                          "name": "Apply By: all Events"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Created (in days) equals or less than 10\nCategory is not 278 (Jordan)"
+    },
+    {
+      "name": "Footwear"
+    },
+    {
+      "name": "is on sale is yes"
+    },
+    {
+      "name": "Category is 198 (The vAult)"
+    }
+  ]
+}
