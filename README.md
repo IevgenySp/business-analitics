@@ -1,2 +1,2 @@
-# business-analitic
-Business analitic
+# business-analitics
+Business analitics
